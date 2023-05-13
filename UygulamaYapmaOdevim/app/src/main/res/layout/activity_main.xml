@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kalpbg"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/panelim"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/shape4"
+        >
+
+        <EditText
+            android:id="@+id/kullaniciadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textSize="20sp"
+            android:hint="Kullanıcı Adı"
+            android:ems="10"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:drawableRight="@drawable/baseline_person_24"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/sifre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textSize="20sp"
+            android:hint="Sifre"
+            android:ems="10"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="40dp"
+            android:drawableRight="@drawable/baseline_password_24"
+            android:inputType="textPassword"
+
+            />
+
+        <TextView
+            android:id="@+id/tvKayit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bir hesabınız yok mu?"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btngir"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="81dp"
+            android:layout_marginTop="183dp"
+            android:background="@drawable/ripplee"
+            android:text="GİRİŞ"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/img_1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/img_2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/img"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İSB"
+        android:textSize="90sp"
+        android:textStyle="bold"
+        android:textColor="#951616"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>
